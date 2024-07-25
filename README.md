@@ -22,10 +22,8 @@ I created a file containing email addresses marked as spam from dataset 1 and 2.
 In the test() method, I also run count_signs() and count the number of upper and lower case letters, numbers and
 signs. I also separate these properties for the subject and body of the email. Based on the analysis of emails from 1 and 2
 dataset, I came up with the following data:
-![obrazek](https://github.com/user-attachments/assets/9c9ca139-c25c-4151-aa49-570a54a00455)
-<br />
-![obrazek](https://github.com/user-attachments/assets/230397ac-d151-426e-9a3b-2daa2b57c726)
-<br />
+![obrazek](https://github.com/user-attachments/assets/9c9ca139-c25c-4151-aa49-570a54a00455)<br />
+![obrazek](https://github.com/user-attachments/assets/230397ac-d151-426e-9a3b-2daa2b57c726)<br />
 Based on those, I derived the percentages in the second line, which we then used in u email classification.
 * Classify_HTML_tags_to_sentence()
 The method uses further data analysis on the basis of which I again classify SPAM or HAM:
