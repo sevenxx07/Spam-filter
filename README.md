@@ -40,4 +40,4 @@ In classify_naive_bayes, I go through the words in the email and calculate the p
 SPAM or HAM. Therefore, the frequency of this word is set to 1 and from the beginning we set the initial frequency of the written words
 in the train method to 2. The formula for calculating the probability of spam and ham:
 ![obrazek](https://github.com/user-attachments/assets/d9acdc45-3a50-44d8-bab0-165848f9c65a)
-Source:https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering
+ &emsp; &emsp;Source:https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering
