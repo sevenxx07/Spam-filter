@@ -21,14 +21,13 @@ I created a file containing email addresses marked as spam from dataset 1 and 2.
 * classify_amount_chars()
 In the test() method, I also run count_signs() and count the number of upper and lower case letters, numbers and
 signs. I also separate these properties for the subject and body of the email. Based on the analysis of emails from 1 and 2
-dataset, I came up with the following data:
+dataset, I came up with the following data:<br />
 ![obrazek](https://github.com/user-attachments/assets/9c9ca139-c25c-4151-aa49-570a54a00455)<br />
 ![obrazek](https://github.com/user-attachments/assets/230397ac-d151-426e-9a3b-2daa2b57c726)<br />
 Based on those, I derived the percentages in the second line, which we then used in u email classification.
 * Classify_HTML_tags_to_sentence()
-The method uses further data analysis on the basis of which I again classify SPAM or HAM:
-![obrazek](https://github.com/user-attachments/assets/47cec6ba-ccfb-4465-887d-aecd04bb2bec)
-<br />
+The method uses further data analysis on the basis of which I again classify SPAM or HAM:<br />
+![obrazek](https://github.com/user-attachments/assets/47cec6ba-ccfb-4465-887d-aecd04bb2bec)<br />
 * Classify_naive_bayes()
 This method is based on an algorithm that is similar to Naive Bayes spam filtering and is implemented in the train() method.
 The train_guard variable watches if the train() method has been run and if therefore the classification can be used.
@@ -39,10 +38,8 @@ five times or less in the emails to avoid inaccuracies in the algorithm due to r
 are calculated by dividing the frequency and the number of elements in the ham_pred or spam_pred dictionary.
 In classify_naive_bayes, I go through the words in the email and calculate the probability that it is an email
 SPAM or HAM. Therefore, the frequency of this word is set to 1 and from the beginning we set the initial frequency of the written words
-in the train method to 2. The formula for calculating the probability of spam and ham:
-![obrazek](https://github.com/user-attachments/assets/d9acdc45-3a50-44d8-bab0-165848f9c65a)
-<br />
+in the train method to 2. The formula for calculating the probability of spam and ham:<br />
+![obrazek](https://github.com/user-attachments/assets/d9acdc45-3a50-44d8-bab0-165848f9c65a)<br />
  &emsp; &emsp;Source:https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering
 # Results of training
-![obrazek](https://github.com/user-attachments/assets/f98e68ff-85ff-48a3-86a5-974b0f578962)
-<br />
+![obrazek](https://github.com/user-attachments/assets/f98e68ff-85ff-48a3-86a5-974b0f578962)<br />
